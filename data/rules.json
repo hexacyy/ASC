@@ -1,0 +1,46 @@
+[
+  {
+    "pattern": "powershell.*-enc",
+    "verdict": "malicious"
+  },
+  {
+    "pattern": "certutil.*http",
+    "verdict": "malicious"
+  },
+  {
+    "pattern": "bitsadmin.* /transfer",
+    "verdict": "malicious"
+  },
+  {
+    "pattern": "wmic.*process",
+    "verdict": "suspicious"
+  },
+  {
+    "pattern": "schtasks.* /create",
+    "verdict": "suspicious"
+  },
+  {
+    "pattern": "regsvr32.*.sct",
+    "verdict": "malicious"
+  },
+  {
+    "pattern": "iex\\s",
+    "verdict": "suspicious"
+  },
+  {
+    "pattern": "cmd\\.exe.* /c",
+    "verdict": "suspicious"
+  },
+  {
+    "pattern": "new-object.*net.webclient",
+    "verdict": "malicious"
+  },
+  {
+    "pattern": "ftp.txt",
+    "verdict": "suspicious"
+  },
+  {
+    "pattern": "payload\\.b64",
+    "verdict": "suspicious"
+  }
+]

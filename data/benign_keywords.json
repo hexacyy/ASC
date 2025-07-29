@@ -1,0 +1,12 @@
+[
+  "ping",
+  "whoami",
+  "ipconfig",
+  "dir",
+  "netstat",
+  "echo hello",
+  "hostname",
+  "systeminfo",
+  "tasklist",
+  "type nul"
+]
